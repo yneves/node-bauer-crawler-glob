@@ -1,0 +1,38 @@
+{
+  "name": "bauer-crawler-glob",
+  "version": "0.1.0",
+  "description": "Plugin for bauer-crawler to list files with node-glob.",
+  "keywords": [
+    "multi-thread",
+    "multi-core",
+    "process",
+    "fork",
+    "multi-process",
+    "cluster",
+    "crawler",
+    "glob"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/yneves/node-bauer-crawler-glob",
+  "author": {
+    "name": "Yuri Neves Silveira",
+    "url": "http://yneves.com/",
+    "email": "npm@yneves.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yneves/node-bauer-crawler-glob.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": ">=1.0.0"
+  },
+  "dependencies": {
+    "bauer-crawler": "^0.1.7",
+    "bauer-factory": "^2.0.4",
+    "glob": "^5.0.14"
+  },
+  "main": "lib/index.js"
+}
