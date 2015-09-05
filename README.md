@@ -1,2 +1,2 @@
-# node-bauer-crawler-glob
-Plugin for bauer-crawler to list files with node-glob
+# node-bauer-plugin-glob
+Plugin for bauer to list files with node-glob

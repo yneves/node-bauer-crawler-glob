@@ -18,7 +18,7 @@ crawler.loadPlugin(__dirname + "/../../");
 
 crawler.start(function() {
   
-  return this.promise()
+  return this.Promise
     .glob(__dirname + "/*.js")
     .then(function(files) {
       assert.deepEqual(files,[__dirname + "/sample.js"]);
